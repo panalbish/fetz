@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-unfetch';
 /**
  * use the fetch api to perform the generic ajax request
  * @param {string} requestUrl   - the request url
@@ -35,6 +34,7 @@ export default async ({
     options.body = typeof body === 'string' ? body : JSON.stringify(body);
   }
   try {
+    // eslint-disable-next-line no-undef
     return await fetch(requestUrl, options);
   } catch (e) {
     throw new Error(e);
