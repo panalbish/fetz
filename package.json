@@ -38,7 +38,6 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jest": "^21.15.0",
     "gzip-size-cli": "^2.1.0",
-    "isomorphic-unfetch": "^2.0.0",
     "jest": "^22.4.3",
     "nock": "^9.2.5",
     "npm-run-all": "^4.1.2",
@@ -47,5 +46,8 @@
     "rollup-plugin-babel": "2.7.1",
     "strip-json-comments-cli": "^1.0.1",
     "uglify-js": "2.8.22"
+  },
+  "peerDependencies": {
+    "isomorphic-unfetch": "^2.0.0"
   }
 }
