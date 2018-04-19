@@ -8,3 +8,5 @@
 /es
 npm-debug.log
 .idea
+yarn-debug.log*
+yarn-error.log*

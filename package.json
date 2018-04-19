@@ -47,7 +47,7 @@
     "strip-json-comments-cli": "^1.0.1",
     "uglify-js": "2.8.22"
   },
-  "peerDependencies": {
+  "dependencies": {
     "isomorphic-unfetch": "^2.0.0"
   }
 }
