@@ -1,6 +1,6 @@
 
 
-# Fetz
+# fetz
 Generic fetch consisting of CRUD operations
 
 [![npm version](https://badge.fury.io/js/fetz.svg)](https://badge.fury.io/js/fetz)
@@ -27,3 +27,6 @@ method: 'PATCH',
 body: {name: 'Max'}
 });
 ```
+
+## Support
+Bring your own Promise polyfill if you need to support browsers that do not have a native Promise implementation.

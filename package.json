@@ -49,5 +49,8 @@
   },
   "dependencies": {
     "isomorphic-unfetch": "^2.0.0"
+  },
+  "jest": {
+    "testURL": "http://localhost"
   }
 }
