@@ -1,6 +1,6 @@
 {
   "name": "fetz",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Generic fetch consisting of CRUD operations",
   "jsnext:main": "dist/fetz.es.js",
   "module": "dist/fetz.es.js",
