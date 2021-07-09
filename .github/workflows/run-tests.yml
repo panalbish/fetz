@@ -28,6 +28,7 @@ jobs:
       id: step_two
       run: |
         echo "${{ env.action_state }}" # This will output 'yellow'
+        echo "${{ env }}" # This will output env values
 
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
